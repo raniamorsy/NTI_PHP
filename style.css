@@ -1,0 +1,107 @@
+.all{background-image: url(image/1.jpg);
+width: 100%;height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+color: rgba(0, 0, 0, 0.267);
+}
+.screen{color: white;
+background-color: rgba(0, 0, 0, 0.6);
+width: 100%;
+height: 100%;
+position: relative;
+}
+#navbar{
+    width: 100%;
+    position: sticky;
+    top:0px;
+    z-index: 99;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.925);
+    
+}
+nav{
+    display:inline-block ;
+    position: absolute;
+    right:5%;
+    bottom: 20%;
+    text-align: center;
+    
+
+}
+
+nav ul{
+    list-style:none;
+   
+   
+    
+}
+
+nav ul li{
+    float: left;
+    color:white;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color:white
+}
+a:active{
+    color:blue;
+}
+
+#logo{
+    display:inline-block ;
+}
+
+ #logo img{
+    width: 160px;
+    height: 90px;
+    position: absolute;
+    left :5%;
+    top:2%  
+
+}
+.form-group{
+    position:relative;
+   width:70%;
+   height:100%;
+}
+.form-control{
+    position:absolute;
+    top:60%;
+    width:50%;
+    left:20%;
+    right:20%;
+}
+button {
+    position:absolute;
+    top:68%;
+    width:15%;
+    left:60%
+}
+/* ///////////////////////sign up///////// */
+ #back{
+background-image: url(image/4.jpg);
+width: 100%;
+height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+ background-color: rgba(0, 0, 0, 0.4);
+     
+} 
+#word{
+    margin-left:26%;
+}
+#word label{
+    color:rgb(250, 251, 255);
+    /* font-size:large; */
+    font-weight :bold;
+    background:black;
+
+}
+
+
+
+
+
+
